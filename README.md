@@ -18,7 +18,7 @@ https://ethereumcoffee.netlify.app/
   4. Wallet: MetaMask
 
 #Installation
-_Prerequisites
+_Prerequisites_
 -Nodejs and npm
 -MetaMask browser extension
 -Testnet ETH (Goerli or Sepolia)
