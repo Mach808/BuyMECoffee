@@ -24,6 +24,6 @@ https://ethereumcoffee.netlify.app/
 3. Testnet ETH (Goerli or Sepolia)
 
 ## 1. Clone the repo
-> git clone https://github.com/yourusername/BuyMeCoffee.git
-> cd BuyMeCoffee
+`git clone https://github.com/yourusername/BuyMeCoffee.git
+cd BuyMeCoffee`
 
