@@ -1,0 +1,81 @@
+.card{
+    border: 1px solid hsl(0,0%,80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
+    padding: 20px;
+    margin:30px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    background:	#18336e;
+    color: white
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+form label,
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form input {
+  padding: 10px;
+  /* margin-right: 5px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+form select:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2); /* green glow on focus */
+}
+
+.title{
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+#name,#message{
+  width: 94%;
+}
