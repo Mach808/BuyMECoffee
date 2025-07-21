@@ -1,4 +1,4 @@
-# ☕ Buy Me a Coffee (Web3 dApp)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5fbe4ec6-bc47-4e86-8c1b-21dd9204c887" /># ☕ Buy Me a Coffee (Web3 dApp)
 Buy Me a Coffee is a Web3 DApp that lets users send ETH tips and messages to creators as a token of appreciation. Built with Solidity and Ethers.js, it connects to wallets like MetaMask and records all messages on-chain. Deployed using Hardhat and Netlify.
 
 ## 🔗 Live Demo
@@ -24,6 +24,21 @@ https://ethereumcoffee.netlify.app/
 3. Testnet ETH (Goerli or Sepolia)
 
 ## 1. Clone the repo
-`git clone https://github.com/yourusername/BuyMeCoffee.git
-cd BuyMeCoffee`
+`git clone https://github.com/yourusername/BuyMeCoffee.git`
+`cd BuyMeCoffee`
 
+## 2. Install dependencies
+`npm install`
+
+## 3. Compile & deploy smart contract
+`cd smart_contract`
+`npx hardhat compile`
+`npx hardhat run scripts/deploy.js --network sepolia`
+
+## 4. Update frontend
+Replace the contract address and ABI in the frontend code (state.js or relevant file).
+
+## 5. Run frontend
+`npm start`
+
+# 📸 Screenshots
