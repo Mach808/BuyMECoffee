@@ -43,7 +43,7 @@ Replace the contract address and ABI in the frontend code (state.js or relevant 
 
 ## FILE DIRECTORY
 BuyMeCoffee/
-├── smart_contract/
+`├── smart_contract/
 │ └── BuyMeACoffee.sol
 ├── scripts/
 │ └── deploy.js
@@ -54,7 +54,7 @@ BuyMeCoffee/
 │ ├── Memos.js
 │ └── state.js
 ├── package-lock.json
-└── README.md
+└── README.md`
 
 ## 🤝 Contributions
 Pull requests are welcome! If you find a bug or have suggestions for improvement, feel free to open an issue or submit a PR.
