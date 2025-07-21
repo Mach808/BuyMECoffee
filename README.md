@@ -23,6 +23,7 @@ https://ethereumcoffee.netlify.app/
 2. MetaMask browser extension
 3. Testnet ETH (Goerli or Sepolia)
 
+```
 ### 1. Clone the repo
 `git clone https://github.com/yourusername/BuyMeCoffee.git`
 `cd BuyMeCoffee`
@@ -40,6 +41,7 @@ Replace the contract address and ABI in the frontend code (state.js or relevant 
 
 ### 5. Run frontend
 `npm start`
+```
 
 ## FILE DIRECTORY
 ```text
