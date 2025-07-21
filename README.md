@@ -24,22 +24,22 @@ https://ethereumcoffee.netlify.app/
 3. Testnet ETH (Goerli or Sepolia)
 
 ```
-### 1. Clone the repo
+1. Clone the repo
 `git clone https://github.com/yourusername/BuyMeCoffee.git`
 `cd BuyMeCoffee`
 
-### 2. Install dependencies
+2. Install dependencies
 `npm install`
 
-### 3. Compile & deploy smart contract
+3. Compile & deploy smart contract
 `cd smart_contract`
 `npx hardhat compile`
 `npx hardhat run scripts/deploy.js --network sepolia`
 
-### 4. Update frontend
+4. Update frontend
 Replace the contract address and ABI in the frontend code (state.js or relevant file).
 
-### 5. Run frontend
+5. Run frontend
 `npm start`
 ```
 
