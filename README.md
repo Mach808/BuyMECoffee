@@ -23,5 +23,7 @@ https://ethereumcoffee.netlify.app/
 2. MetaMask browser extension
 3. Testnet ETH (Goerli or Sepolia)
 
-
+## 1. Clone the repo
+> git clone https://github.com/yourusername/BuyMeCoffee.git
+> cd BuyMeCoffee
 
