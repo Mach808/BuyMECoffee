@@ -23,24 +23,43 @@ https://ethereumcoffee.netlify.app/
 2. MetaMask browser extension
 3. Testnet ETH (Goerli or Sepolia)
 
-## 1. Clone the repo
+### 1. Clone the repo
 `git clone https://github.com/yourusername/BuyMeCoffee.git`
 `cd BuyMeCoffee`
 
-## 2. Install dependencies
+### 2. Install dependencies
 `npm install`
 
-## 3. Compile & deploy smart contract
+### 3. Compile & deploy smart contract
 `cd smart_contract`
 `npx hardhat compile`
 `npx hardhat run scripts/deploy.js --network sepolia`
 
-## 4. Update frontend
+### 4. Update frontend
 Replace the contract address and ABI in the frontend code (state.js or relevant file).
 
-## 5. Run frontend
+### 5. Run frontend
 `npm start`
 
-# 📸 Screenshots
-![ScreenShot of the webApp](<img width="1908" height="1056" alt="image" src="https://github.com/user-attachments/assets/e7b97a6d-f45b-4421-9f4c-404b5b7263cb" />)
+## FILE DIRECTORY
+BuyMeCoffee/
+├── smart_contract/
+│ └── BuyMeACoffee.sol
+├── scripts/
+│ └── deploy.js
+├── hardhat.config.js
+├── package.json
+├── src/
+│ ├── App.js
+│ ├── Memos.js
+│ └── state.js
+├── package-lock.json
+└── README.md
+
+## 🤝 Contributions
+Pull requests are welcome! If you find a bug or have suggestions for improvement, feel free to open an issue or submit a PR.
+
+⚠️ **Note:** This dApp only works with **Sepolia ETH**. Make sure your wallet is connected to the Sepolia test network before interacting with the application.
+
+
 
