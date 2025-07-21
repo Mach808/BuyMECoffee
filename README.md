@@ -42,21 +42,21 @@ Replace the contract address and ABI in the frontend code (state.js or relevant 
 `npm start`
 
 ## FILE DIRECTORY
+```text
 BuyMeCoffee/
-`BuyMeCoffee/
 ├── smart_contract/
-│ └── BuyMeACoffee.sol
+│   └── BuyMeACoffee.sol
 ├── scripts/
-│ └── deploy.js
+│   └── deploy.js
 ├── hardhat.config.js
 ├── package.json
 ├── src/
-│ ├── App.js
-│ ├── Memos.js
-│ └── state.js
+│   ├── App.js
+│   ├── Memos.js
+│   └── state.js
 ├── package-lock.json
 └── README.md
-`
+```
 
 ## 🤝 Contributions
 Pull requests are welcome! If you find a bug or have suggestions for improvement, feel free to open an issue or submit a PR.
