@@ -42,3 +42,4 @@ Replace the contract address and ABI in the frontend code (state.js or relevant 
 `npm start`
 
 # 📸 Screenshots
+![ScreenShot of the webApp]()
