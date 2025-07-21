@@ -16,3 +16,9 @@ https://ethereumcoffee.netlify.app/
   2. Blockchain: Solidity, Hardhat
   3. Web3 Integration: Ethers.js
   4. Wallet: MetaMask
+
+#Installation
+_Prerequisites
+-Nodejs and npm
+-MetaMask browser extension
+-Testnet ETH (Goerli or Sepolia)
